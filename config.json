@@ -1,7 +1,7 @@
 {
   "title": "Englisch Vokabeltraining",
-  "sourceLabel": "Englisch",
-  "targetLabel": "Deutsch",
+  "sourceLabel": "Deutsch",
+  "targetLabel": "Englisch",
   "csvFile": "vokabeln.csv",
 
   "_comment_zeitraum": "Format: JJJJ-MM-TT. Wochenenden werden automatisch als Nicht-Lerntage behandelt. Aktuell nur 1 Lektion (Focus 1) vorhanden, die ist damit sofort komplett verfuegbar - der Zeitraum wirkt erst, sobald mehr Lektionen dazukommen. Einfach anpassen, z.B. auf das Schuljahresende.",
