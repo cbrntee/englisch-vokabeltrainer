@@ -1,0 +1,19 @@
+{
+  "title": "Englisch Vokabeltraining",
+  "sourceLabel": "Englisch",
+  "targetLabel": "Deutsch",
+  "csvFile": "vokabeln.csv",
+
+  "_comment_zeitraum": "Format: JJJJ-MM-TT. Wochenenden werden automatisch als Nicht-Lerntage behandelt. Aktuell nur 1 Lektion (Focus 1) vorhanden, die ist damit sofort komplett verfuegbar - der Zeitraum wirkt erst, sobald mehr Lektionen dazukommen. Einfach anpassen, z.B. auf das Schuljahresende.",
+  "startDate": "2026-09-27",
+  "endDate": "2027-07-31",
+
+  "_comment_urlaub": "Liste von [Start,Ende]-Datumsbereichen, an denen nicht gelernt wird (z.B. Ferien). Aktuell leer - bei Bedarf selbst eintragen, z.B. [\"2026-10-26\",\"2026-10-30\"].",
+  "vacationRanges": [],
+
+  "_comment_session": "Wie viele Woerter maximal in einer Trainingssitzung abgefragt werden.",
+  "sessionSize": 25,
+
+  "_comment_leitner": "Intervalle (in Lerntagen) fuer die 5 Leitner-Boxen. Box 1 = Wort war zuletzt falsch/neu, Box 5 = sehr gut gekonnt.",
+  "leitnerIntervals": [1, 2, 4, 8, 16]
+}
